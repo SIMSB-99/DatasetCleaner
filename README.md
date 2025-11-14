@@ -18,12 +18,14 @@ cd DatasetCleaner
 ### 2. Create a virtual environment (venv or conda)
 #### 2.1 venv
 ```bash
-python -m venv venv
-venv\Scripts\activate             # Windows
+python -m venv VLM4Context
+VLM4Context\Scripts\activate # Windows
+source VLM4Context/bin/activate # MacOS
 ```
 #### 2.2 (conda)
 ```bash
-conda activate your_env
+conda create --name VLM4Context
+conda activate VLM4Context
 ```
 
 ### 3. Install dependecies
