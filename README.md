@@ -7,6 +7,7 @@ The tool also includes an Explorer interface modeled after Windows Explorer, all
 
 
 ## Installation
+**Note: This app has been tested with Python=3.9.13 and 3.9.21. Make sure you have either of these versions of Python installed before continuing.** 
 
 ### 1. Clone the repository
 
@@ -16,13 +17,13 @@ cd DatasetCleaner
 ```
 
 ### 2. Create a virtual environment (venv or conda)
-#### 2.1 venv
+#### Either 2.1 venv
 ```bash
 python -m venv VLM4Context
 VLM4Context\Scripts\activate # Windows
 source VLM4Context/bin/activate # MacOS
 ```
-#### 2.2 (conda)
+#### Or 2.2 (conda)
 ```bash
 conda create --name VLM4Context
 conda activate VLM4Context
@@ -49,6 +50,6 @@ The app opens at http://localhost:8501/
 ## Dataset ingestion
 
 ### 1. Set dataset name (e.g., VLM4Context)
-### 2. Select dataset's root directory
-### 3. Upload metadata CSV
+### 2. Give path to the dataset's root directory
+### 3. Give path to the metadata CSV (REVIEW_SET_METADATA.csv)
 ### 4. Click "Ingest"
